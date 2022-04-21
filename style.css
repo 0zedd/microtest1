@@ -1,17 +1,44 @@
-body {
-    background-color: purple;
-  }
-  
-  h1 {
-      font-style: normal;
-      font-size: xx-large;
-      font-family: fantasy;
-    color: rgb(219, 199, 161);
-    margin-left: 20px;
+.body {
+    background-image: url(https://www.vegrecipesofindia.com/wp-content/uploads/2020/12/burger-recipe-4.jpg);
+    background-size: 4in;
+    background-blend-mode:normal;
 
 }
-    p {
-        font-style: italic;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: darkcyan;
-    }
+
+.text-center {
+    text-align: center;
+    color: red;
+    font-stretch: semi-condensed;
+    font-size:xx-large;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+
+.description {
+    color: #1c2aed;
+    text-align: center;
+    font-style: italic;
+    font-size:medium;
+    font-weight: bolder;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.label {
+    color: white;
+    text-align: center;
+    padding-left: 12px;
+    font-family: monospace;
+    
+}
+
+.survey-form{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(184, 37, 184);
+    width: 75%;
+    margin-left: 100px;
+    margin-top: 8px;
+    height: fit-content;
+}
