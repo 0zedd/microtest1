@@ -1,0 +1,17 @@
+body {
+    background-color: purple;
+  }
+  
+  h1 {
+      font-style: normal;
+      font-size: xx-large;
+      font-family: fantasy;
+    color: rgb(219, 199, 161);
+    margin-left: 20px;
+
+}
+    p {
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: darkcyan;
+    }
