@@ -1,53 +1,97 @@
 .body {
-    background-image: url(https://www.vegrecipesofindia.com/wp-content/uploads/2020/12/burger-recipe-4.jpg);
-    background-size: 4in;
-    background-blend-mode:normal;
-
+  background-image: url(https://www.vegrecipesofindia.com/wp-content/uploads/2020/12/burger-recipe-4.jpg);
+  background-color: beige;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  image-rendering: auto;
 }
-
+.main {
+  width: 50%;
+  margin: auto;
+  background: var(--color-darkblue-alpha);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #534e4e;
+  overflow: auto;
+}
 .text-center {
-    text-align: center;
-    color: red;
-    font-stretch: semi-condensed;
-    font-size:xx-large;
-    font-variant: small-caps;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 30px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
 }
 
-.description {
-    color: #1c2aed;
-    text-align: center;
-    font-style: italic;
-    font-size:medium;
-    font-weight: bolder;
-    margin-top: 30px;
-    padding-left: 15%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.text-label {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  width: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .label {
-    color: white;
-    text-align: center;
-    padding-left: 12px;
-    font-family: monospace;
-    
+  color: white;
+  text-align: center;
+  padding-left: 12px;
+  font-family: monospace;
 }
 
-.survey-form{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(184, 37, 184);
-    width: 75%;
-    margin-left: 100px;
-    margin-top: 8px;
-    height: fit-content;
+.survey-form input {
+  padding: 15px;
+  width: 60%;
+  border-radius: 5px;
 }
-.comment {
-    resize: vertical;
-    padding: 0.9rem;
-    width: 70.9%;
+.radio-group input {
+  width: 200px;
+  margin-top: 10px;
+  display: block;
+}
+.radio-group input {
+  width: 200px;
+  margin-top: 10px;
+  display: block;
+}
+.long-label {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+  width: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+span {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+  font-weight: bold;
+  width: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+select,
+textarea {
+  display: block;
+  padding: 15px;
+  width: 60%;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.check-group input {
+  width: 500px;
+  display: block;
+  padding: 5px;
 }
 .submit {
-    background-color: green;
+  background-color: rgb(45, 189, 45);
+  padding: 10px;
+  width: 50%;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
 }
